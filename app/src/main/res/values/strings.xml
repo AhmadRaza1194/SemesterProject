@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SemesterProject</string>
+    <string name="gpa_amp_cpa_calculator"><![CDATA[GPA & CGPA Calculator]]></string>
 </resources>

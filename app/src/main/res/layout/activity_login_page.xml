@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sp"
+    tools:context=".LoginPage">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="306dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219"
+        app:srcCompat="@drawable/gpacgpacalculator" />
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="345dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/my_border"
+        android:textColor="@color/white"
+        android:hint="Email / UserName"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="345dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="431dp"
+        android:background="@drawable/my_border"
+        android:textColor="@color/white"
+        android:hint="Password"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="161dp"
+        android:layout_height="58dp"
+        android:background="@drawable/my_border"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="637dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/noborder"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

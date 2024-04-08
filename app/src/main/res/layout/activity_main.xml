@@ -4,17 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="@color/sp"
-    >
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="361dp"
         android:layout_height="361dp"
+        app:srcCompat="@drawable/gpacgpacalculator"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="28dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="338dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="100dp"
+        android:indeterminateOnly="false"
+        android:maxHeight="40dip"
+        android:minHeight="16dip"
+        android:progressBackgroundTint="@color/white"
+        android:scaleY="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="Missing,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="© Copyright TechSol All Rights Reserved"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/gpacgpacalculator" />
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        app:layout_constraintVertical_bias="0.618" />
 </androidx.constraintlayout.widget.ConstraintLayout>
