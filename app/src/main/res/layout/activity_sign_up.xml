@@ -128,19 +128,19 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="50dp"
-        android:layout_height="47dp"
+        android:id="@+id/Back_btn"
+        android:layout_width="66dp"
+        android:layout_height="40dp"
         android:background="@drawable/my_border"
-        android:text="<"
+        android:text="Back"
         android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textSize="10sp"
         android:textStyle="bold"
 
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="30dp" />
+        tools:layout_editor_absoluteY="48dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
