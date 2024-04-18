@@ -20,25 +20,25 @@
         app:srcCompat="@drawable/gpacgpacalculator"
         tools:ignore="ContentDescription" />
 
+    <!-- View background color -->
+
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="345dp"
         android:layout_height="58dp"
         android:layout_marginBottom="36dp"
+        android:background="@drawable/my_border"
         android:ems="10"
+        android:hint="Email/UserName"
         android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@drawable/my_border"
-        android:textColor="@color/white"
-        android:hint="Email/UserName"
-        android:textSize="25dp"
-        android:textAlignment="center"
-        android:textColorHint="@color/white"
         tools:ignore="Autofill" />
-
-    <!-- View background color -->
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -52,7 +52,7 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:textSize="25dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +66,7 @@
         android:background="@drawable/my_border"
         android:text="Login"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
